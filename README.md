@@ -43,6 +43,12 @@ This project analyzes my 2024-2025 weekly routine data and uses it to forecast t
 - Problem: The dataset is still small even with two years of records.
   Fix: A simple ridge regression model was used because it is stable and less likely to overfit small personal data.
 
+## How This Can Help Others
+
+Anyone can use this project to understand their own weekly routine and predict the next week's routine pattern. To get personal results, they need to replace my time records with their own weekly time details, such as sleeping, studying, working, gaming, exercise, reading, transportation, and other activities.
+
+The more honestly and regularly someone tracks their time, the better the notebook can learn their routine. This can help them find where their time is going, notice habits like too much screen time or low study time, and test small changes before planning the next week.
+
 ## How to Use
 
 Open `weekly_routine_forecast_2024.ipynb`, edit the current week's percentages in the first code cell, then run the notebook from top to bottom. The final sections will show the predicted next-week routine, performance score, and improvement notes.
